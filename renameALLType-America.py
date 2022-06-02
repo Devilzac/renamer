@@ -9,17 +9,17 @@ month = now.strftime("%m")
 day = now.strftime("%d")
 
 folderPath = r'C:\Users\shane\Desktop\RenameScripts\toDo'
-allSamefile = bool(False)
+allSamefile = bool(True)
 allLanguagesAvailable = ["EN_US_", "ES_MX_", "FR_CA_"]
 
-product = 'Onyx'
-multilingual = bool(False)
+product = 'Eiffel'
+multilingual = bool(True)
 revision = ''
 dataMulti = ''
 
 dataType = {
-    "DS": bool(True),
-    "IG": bool(False),
+    "DS": bool(False),
+    "IG": bool(True),
     "UG": bool(False),
     "Manual": bool(False),
     "GuiaActivation": bool(False)

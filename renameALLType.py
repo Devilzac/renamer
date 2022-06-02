@@ -14,7 +14,7 @@ allSamefile = bool(True)
 allLanguagesAvailable = ["CA_", "DE_", "DU_",
                          "EN_", "ES_", "FR_", "IT_", "NO_", "PT_", "SV_","DA_","PL_","EU_"]
 
-product = 'Supernova_'
+product = 'EiffelBasic_'
 multilingual = bool(True)
 revision = ''
 dataMulti = ''
@@ -75,16 +75,16 @@ if bool(dataType["DS"]):
     }
 
 if bool(dataType["IG"]):
-    data = {"CA_": "Guies_d’instal·lació",
+    data = {"CA_": "Guia_d’instal·lació",
             "DE_": "Installationsanleitungen",
             "DU_": "Installatiegidsen",
             "NL_": "Installatiegidsen",
             "EN_": "Installation_Guide",
             "ES_": "Guías_de_instalación",
-            "FR_": "Guides_d’installation",
-            "IT_": "Guide_all’installazione",
+            "FR_": "Guide_d’installation",
+            "IT_": "Guida_d’installazione",
             "NO_": "Installasjonsveiledninger",
-            "PT_": "Guias_de_instalação",
+            "PT_": "Guia_de_instalação",
             "SV_": "Installationsanvisningar",
             "DA_": "Installationsvejledninger",
             "PL_": "Instrukcje_instalacji",
